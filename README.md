@@ -1,121 +1,128 @@
-# Face-recognization.
-📌 Face Recognition System using OpenCV (Python)
+# 🧠 Face Recognition System
 
-This project implements a real-time face recognition system using Python and OpenCV. It uses the LBPH (Local Binary Pattern Histogram) algorithm for face recognition and Haar Cascade for face detection. The system can train on custom datasets, save trained models, and recognize faces live using a webcam 🚀
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B3FE4,100:3A0CA3&height=200&section=header&text=Face%20Recognition&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+</p>
 
+<p align="center">
+  👤 Real-time Face Detection & Recognition System  
+  <br/>
+  Smart • Fast • AI Powered
+</p>
 
+---
 
-🔹 Features
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Face%20Recognition-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+</p>
 
-📷 Real-time face detection via webcam
+---
 
-🧠 Face recognition using LBPH algorithm
+## 🚀 About
 
-💾 Trains once, loads saved model automatically
+This project is a **Face Recognition System** that detects and recognizes human faces using computer vision techniques.
 
-🏷️ Displays person name with confidence score
+It can be used for:
 
-❓ Labels unknown faces when confidence is low
+- 🔐 Security systems  
+- 📸 Face-based authentication  
+- 🏫 Attendance systems  
+- 🤖 AI-based applications  
 
-🖥️ Fullscreen live camera view
+---
 
+## ✨ Features
 
+👤 Real-time face detection  
+🧠 Face recognition support  
+📷 Webcam integration  
+⚡ Fast processing  
+🎯 Accurate results  
 
+---
 
-🔹 Technologies Used
+## 🖼️ Preview
 
-Python
+<p align="center">
+  <img src="https://i.imgur.com/1Q9Z1Zm.png" width="70%" />
+</p>
 
-OpenCV (cv2)
+---
 
-NumPy
+## ⚙️ Tech Stack
 
-Haar Cascade Classifier
+- Python  
+- OpenCV  
+- NumPy  
 
-LBPH Face Recognizer
+---
 
+## 📦 Installation
 
+```bash
+git clone https://github.com/keisazen-creator/Face-recognization.git
+cd Face-recognization
+pip install -r requirements.txt
+```
 
+---
 
+## ▶️ Usage
 
-🔹 Dataset Structure
+```bash
+python main.py
+```
 
-dataset/
+---
+
+## 📁 Project Structure
+
+```
+Face-recognization/
 │
-├── Person1/
-│   ├── img1.jpg
-│   ├── img2.jpg
-│
-├── Person2/
-│   ├── img1.jpg
-│   ├── img2.jpg
+├── main.py
+├── dataset/
+├── models/
+└── README.md
+```
 
-Each folder name represents the person’s name used during recognition.
+---
 
+## ⚠️ Notes
 
+- Ensure your webcam is enabled  
+- Good lighting improves accuracy  
+- Dataset quality affects results  
 
+---
 
-🔹 How It Works
+## 🔮 Future Improvements
 
-1. Reads face images from dataset folders
+- Deep learning models (FaceNet / Dlib)  
+- Web interface  
+- Database integration  
+- Multi-face tracking  
 
+---
 
-2. Trains an LBPH face recognition model
+## 👑 Author
 
+Keisazen Creator
 
-3. Saves the trained model and label mappings
+---
 
+## ⭐ Support
 
-4. Detects faces using Haar Cascade
+If you like this project:
 
+⭐ Star the repo  
+🍴 Fork it  
+🚀 Improve it  
 
-5. Recognizes faces in real-time via webcam
+---
 
-
-
-
-
-
-🔹 How to Run
-
-1. Install dependencies:
-
-pip install opencv-python opencv-contrib-python numpy
-
-
-2. Update dataset path in the code
-
-
-3. Run the script:
-
-python face_reco.py
-
-
-
-Press ESC to exit the application.
-
-
-
-🔹 Use Cases
-
-Attendance systems
-
-Security and surveillance
-
-Personal authentication projects
-
-Computer vision learning projects
-
-
-
-
-⭐ Notes
-
-Requires opencv-contrib-python for LBPH support
-
-Works best with multiple clear images per person
-
-Proper lighting improves accuracy
-
-
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B3FE4,100:3A0CA3&height=120&section=footer"/>
+</p>
